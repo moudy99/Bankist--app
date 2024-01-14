@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <section class="section-1">
+      <div class="container">
+        <div class="btn-container">
+          <div class="active-btn"></div>
+          <button class="btn login">Login</button>
+          <button class="btn register">Create Account</button>
+        </div>
+        <form action="app.html" class="login-form">
+          <div class="input_box">
+            <input type="text" placeholder=" username" required />
+          </div>
+          <div class="input_box">
+            <input
+              type="password"
+              pattern="[0-9]*"
+              inputmode="numeric"
+              placeholder="Pin (1-6 digits)"
+              maxlength="6"
+              required
+            />
+          </div>
+          <div class="remember_me">
+            <input type="checkbox" id="remember_me" />
+            <label for="remember_me">Remember me</label>
+          </div>
+          <div class="input_box btn">
+            <input type="submit" value=" Login" />
+          </div>
+        </form>
+
+        <!--  -->
+        <form action="app.html" class="create-account">
+          <div class="input_box">
+            <input type="text" placeholder="Full Name" required />
+          </div>
+          <div class="input_box">
+            <input type="text" placeholder="Email" required />
+          </div>
+          <div class="input_box">
+            <input
+              type="password"
+              pattern="[0-9]*"
+              inputmode="numeric"
+              placeholder="Pin"
+              maxlength="6"
+              required
+            />
+          </div>
+          <div class="input_box">
+            <input
+              type="text"
+              value=""
+              disabled
+              placeholder="username"
+              required
+            />
+          </div>
+          <div class="remember_me">
+            <input type="checkbox" id="terms-conditions" required />
+            <label for="terms-conditions">I agree to terms & conditions</label>
+          </div>
+          <div class="input_box btn">
+            <input type="submit" value=" Create Account" />
+          </div>
+        </form>
+        <!--  -->
+      </div>
+    </section>
+    <div class="error-message">
+      <div class="wrong">
+        <span class="active"></span>
+        <span class="active"></span>
+      </div>
+      <div class="message">
+        Invalid username or pin. Please try again or register a new account.
+      </div>
+      <button class="close">close</button>
+    </div>
+    <script src="js/login.js"></script>
+  </body>
+</html>

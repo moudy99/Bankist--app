@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bankist - App 🏦</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="imgs/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <nav>
+      <p class="welcome-message">
+        Welcome, <span class="user-name">Moudy</span>
+      </p>
+      <button class="logout">Logout</button>
+    </nav>
+
+    <!-- Main App Content -->
+
+    <main class="app">
+      <!-- BALANCE -->
+      <div class="balance">
+        <div>
+          <p class="balance-text">Current balance</p>
+          <p class="balance-date">
+            <span class="date">00/00/000, 00:00:00 AM </span>
+          </p>
+        </div>
+        <p class="balance-value">0$</p>
+      </div>
+
+      <!-- MOVEMENTS -->
+      <div class="movements">
+        <!-- <div class="movements-box">
+          <div class="type-of-movement type-of-movement--deposit">
+            2 deposit
+          </div>
+          <div class="date-of-movement">3 days ago</div>
+          <div class="value-of-movement">4 000$</div>
+        </div>
+        <div class="movements-box">
+          <div class="type-of-movement type-of-movement--withdrawal">
+            1 withdrawal
+          </div>
+          <div class="date-of-movement">24/01/2037</div>
+          <div class="value-of-movement">-378$</div>
+        </div>
+        <div class="movements-box">
+          <div class="type-of-movement type-of-movement--deposit">1 deposit</div>
+          <div class="date-of-movement">24/01/2037</div>
+          <div class="value-of-movement">-378$</div>
+        </div> -->
+      </div>
+
+      <!-- SUMMARY -->
+      <div class="summary">
+        <div class="box">
+          <p class="summary-label">In</p>
+          <p class="summary-value summary-value--in">0000$</p>
+        </div>
+        <div class="box">
+          <p class="summary-label">Out</p>
+          <p class="summary-value summary-value--out">0000$</p>
+        </div>
+        <!-- <div class="box">
+
+            <p class="summary-label">Interest</p>
+                <p class="summary-value summary-value--interest">0000$</p>
+            </div> -->
+        <button class="btn--sort">&downarrow; SORT</button>
+      </div>
+
+      <!-- OPERATION: TRANSFERS -->
+      <div class="operation operation--transfer">
+        <h2>Transfer money</h2>
+        <form class="form form--transfer">
+          <input type="text" class="form-input form-input--to" />
+          <input type="number" class="form-input form-input--amount" />
+          <button class="form-btn form-btn--transfer">&rarr;</button>
+          <label class="form-lable">Transfer to</label>
+          <label class="form-lable">Amount</label>
+        </form>
+      </div>
+
+      <!-- OPERATION: DEPOSIT -->
+      <div class="operation operation--deposit">
+        <h2>Deposit money</h2>
+        <form class="form form--deposit">
+          <input type="number" class="form-input form-input--deposit-amount" />
+          <button class="form-btn form-btn--deposit">&rarr;</button>
+          <label class="form-lable form-lable--deposit">Amount</label>
+        </form>
+      </div>
+
+      <!-- OPERATION: CLOSE -->
+      <div class="operation operation--close">
+        <h2>Close account</h2>
+        <form class="form form--close">
+          <input type="text" class="form-input form-input--user" />
+          <input
+            type="password"
+            maxlength="6"
+            class="form-input form-input--pin"
+          />
+          <button class="form-btn form-btn--close">&rarr;</button>
+          <label class="form-lable">Confirm user</label>
+          <label class="form-lable">Confirm PIN</label>
+        </form>
+      </div>
+      <!-- OPERATION: DEPOSIT -->
+      <div class="operation operation--withdraw">
+        <h2>Withdraw money</h2>
+        <form class="form form--withdraw">
+          <input type="number" class="form-input form-input--withdraw-amount" />
+          <button class="form-btn form-btn--withdraw">&rarr;</button>
+          <label class="form-lable form-lable--withdraw">Amount</label>
+        </form>
+      </div>
+
+      <!-- LOGOUT TIMER -->
+      <p class="logout-timer">
+        You will be logged out in <span class="timer"></span>
+      </p>
+    </main>
+    <!-- Script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
