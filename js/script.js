@@ -1,5 +1,10 @@
 "use strict";
-
+if (
+  sessionStorage.getItem("login--user") === null ||
+  sessionStorage.getItem("login--pin") === null
+) {
+  window.open("../index.html", "_self");
+}
 const accounts = JSON.parse(localStorage.getItem("Accounts"));
 // Elements
 const labelWelcome = document.querySelector(".welcome");
@@ -247,6 +252,8 @@ const logout_timer = function () {
 
     if (time === 0) {
       clearInterval(timer);
+      sessionStorage.clear();
+
       window.open("../index.html", "_self");
     }
 
