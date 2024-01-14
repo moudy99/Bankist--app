@@ -18,14 +18,14 @@ Welcome to Bankist App 2.0! This project is an enhanced version of the original 
 
 ## Live Demo
 
-Curious to see these features in action? Give Bankist a try! [Live Demo](your-live-demo-link)
+Curious to see these features in action? Give Bankist a try! https://bankist-app-uui1.onrender.com/
 
 ## Getting Started
 
 To run the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/bankist-app.git`
-2. Navigate to the project directory: `cd bankist-app`
+1. Clone the repository: `git clone https://github.com/moudy99/Bankist--app.git`
+2. Navigate to the project directory: `cd Bankist--app`
 3. Open `index.html` in your preferred browser.
 
 ## Contributing
@@ -38,10 +38,8 @@ Your feedback is valuable! If you have any questions, suggestions, or feedback, 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
-
+- The original code by Jonas Schmedtmann is licensed under the [MIT License](https://github.com/jonasschmedtmann/LICENSE).
+- Additional code and modifications by [Moudy Rasmy] are also licensed under the [MIT License](LICENSE).
 ---
 
-**Note:** Replace "your-live-demo-link" with the actual link to your live demo.
 
-Happy coding! 🚀✨
