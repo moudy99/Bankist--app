@@ -15,6 +15,7 @@ Welcome to Bankist App 2.0! This project is an enhanced version of the original 
 - **Remember Me:** Save time with a convenient "Remember Me" option for quick logins.
 - **Unique Usernames:** Automatically generate unique usernames based on your full name.
 - **Easy Logout and Switch:** Effortlessly switch between accounts with a click of a button.
+- **Fully Responsive:** Now, enjoy a seamless digital banking experience on any device! Whether you prefer managing your finances on a laptop or keeping track of your money through your mobile device, Bankist App 2.0 adapts to your screen size.
 
 ## Live Demo
 
