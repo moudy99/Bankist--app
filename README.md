@@ -36,10 +36,9 @@ Contributions are welcome! If you have ideas for new features, find bugs, or wan
 
 Your feedback is valuable! If you have any questions, suggestions, or feedback, please open an issue.
 
+
 ## License
 
-- The original code by Jonas Schmedtmann is licensed under the [MIT License](https://github.com/jonasschmedtmann/LICENSE).
-- Additional code and modifications by [Moudy Rasmy] are also licensed under the [MIT License](LICENSE).
----
-
+- The original code by **[Jonas Schmedtmann](https://github.com/jonasschmedtmann)** 
+- Additional code and modifications by **[Moudy Rasmy](https://github.com/moudy99)** 
 
